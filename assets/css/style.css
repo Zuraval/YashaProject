@@ -1,0 +1,120 @@
+.container {
+	margin: 0 auto;
+	max-width: 1350px;
+}
+
+.header-title {
+	font-size: 40px;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.main-block-gym {
+	background-image: url(/assets/img/gym.png);
+	background-repeat: no-repeat;
+	width: 963px;
+	height: 656px;
+}
+
+.image-men-back {
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(/assets/img/back-men.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 560px;
+	height: 656px;
+	display: none;
+}
+
+.button-back {
+	display: flex;
+	padding-top: 170px;
+	justify-content: center;
+}
+
+.btn-back {
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 0%, rgba(255,38,38,1) 30%, rgba(255,255,255,1) 100%);
+	border-radius: 50%;
+    padding: 75px 75px;
+    text-decoration: none;
+	opacity: 0;
+	transition: all 0.7s ease;
+}
+
+.btn-back:hover {
+	opacity: 1;
+}
+
+.image-men-face {
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(/assets/img/men.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 560px;
+	height: 656px;
+}
+
+.breast {
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 180px;
+	opacity: 0;
+	transition: all 0.7s ease;
+}
+
+.breast:hover {
+	opacity: 1;
+}
+
+.triceps {
+	position: absolute;
+	margin-top: 135px;
+	margin-left: 55px;
+	opacity: 0;
+	transition: all 0.7s ease;
+}
+
+.triceps:hover {
+	opacity: 1;
+}
+
+.legs {
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 200px;
+	opacity: 0;
+	transition: all 0.7s ease;
+}
+
+.legs:hover {
+	opacity: 1;
+}
+
+.button-switching {
+	min-height: 100px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.switching {
+	background-color: lightgrey;
+	cursor: pointer;
+	border: none;
+	padding: 25px 80px;
+	border-radius: 10px;
+	transition: all 0.7s ease;
+	font-size: 18px;
+}
+
+.switching:hover {
+	background-color: lightblue;
+}
